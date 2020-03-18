@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="baidu.css" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="login">
+        <div class="leftpart"></div>
+        <div class="loginform">
+            <form class="myform">
+                <input type="text" autocomplete="off" placeholder="可用于登录和找回密码" class="el-input__inner" style="display: none;" id="tell" />
+                用户名<input type="text" autocomplete="off" placeholder="账户名" class="el-input__inner"  id="user" />
+                <p class="check1" id="hide3">用 户 名 不 能 为 空</p>
+                <p class="check1" id="hide6">用户名仅支持中英文数字和下划线，不能为纯数字</p>
+                手机号<input type="text" autocomplete="off" placeholder="可用于登录和找回密码" class="el-input__inner"  id="tel" />
+                <p class="check1" id="hide">手&nbsp;&nbsp;机&nbsp;&nbsp;号&nbsp;&nbsp;码&nbsp;&nbsp;格&nbsp;&nbsp;式&nbsp;&nbsp;不&nbsp;&nbsp;正&nbsp;&nbsp;确</p>
+                <p class="check1" id="hide4">手 机 号 不 能 为 空</p>
+                &nbsp;&nbsp;&nbsp;密码<input type="password" autocomplete="off" placeholder="请设置登录密码" class="el-input__inner"  id="pwd" />
+                <p class="check1" id="hide5">密 码 不 能 为 空</p>
+                <p class="check1" id="hide7">密码设置不符合要求</p>
+                验证码<input type="password" autocomplete="off" placeholder="请输入验证码" class="el-input__inner1"  id="code" />
+                
+                <button type="button" class="el-button login-btn-submit1 el-button--primary" id="getcode">获取验证码</button><p class="check1" id="hide2">请求超时,请稍后再试</p>
+                <button type="button" class="el-button login-btn-submit el-button--primary" id="login"><!----><!----><span>注册</span></button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="baidu.js"></script>
+</html>
