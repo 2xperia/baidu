@@ -21,7 +21,7 @@ code.onclick = function(){
     var time = 60;
     var timer = null;
     code.innerHTML = time;
-    timer = setInterval(() => {
+    timer = setInterval(function() {
         if (time>0) {
             time = time-1;
             code.innerHTML = time;

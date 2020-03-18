@@ -3,15 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "baidu.js",
-  "dependencies": {
-    "grunt-contrib-cssmin": "^3.0.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.1.0",
-    "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-uglify-es": "^3.3.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/2xperia/baidu/issues"
   },
-  "homepage": "https://github.com/2xperia/baidu#readme"
+  "homepage": "https://github.com/2xperia/baidu#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-uglify-es": "^3.3.0"
+  }
 }

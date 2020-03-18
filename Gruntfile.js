@@ -18,28 +18,23 @@ module.exports = function (grunt) {
             },
             
             files: {
-                src:"./baidu.css",
+                src:"baidu.css",
                 dest:'./dist/baidu.css'
             }
             
         },
         uglify: {
-            options: {
-              mangle: false
-            },
-            
-              files: {
-                src:"./baidu.js",
-                dest:'./dist/baidu.js'
-              }
-            
+            files:{
+                src: './baidu.js',
+                dest: 'dist/baidu.js'
+            }
           }
 
     })
     grunt.loadNpmTasks("grunt-contrib-htmlmin");
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('default',['uglify']);
+    
     grunt.registerTask("default",['htmlmin']);
-    grunt.registerTask('default',['cssmin']);
+    grunt.registerTask('default',['cssmin']);grunt.registerTask('default',['uglify']);
 };
